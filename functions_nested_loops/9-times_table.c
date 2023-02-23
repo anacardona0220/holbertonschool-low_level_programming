@@ -16,7 +16,7 @@ _putchar(' ');
 for (colum = 1; colum <= 9; colum++)
 {
 res = (row * colum);
-if (res > 0)
+if ((res / 10) > 0)
 {
 _putchar((res / 10) + '0');
 }
