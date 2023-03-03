@@ -4,7 +4,7 @@
 *
 * @str: This is char
 *
-**/
+*/
 void puts_half(char *str)
 {
 int k, i;
