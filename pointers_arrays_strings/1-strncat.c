@@ -6,7 +6,7 @@
  * *@src: This is the input source
  * *@n: This is the size
  * * Return: This return to dest, that concatenates two strings
-* */
+**/
 char *_strncat(char *dest, char *src, int n)
 {
 int k, count;
