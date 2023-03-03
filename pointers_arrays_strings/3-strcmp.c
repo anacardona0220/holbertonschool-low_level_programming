@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  *  * _strcmp - a function that compares two strings
- *   * @s1: This is the char
- *    * @s2: This is the char
- *     *
- *      *Return: this is res
- *       */
+ *  * @s1: This is the char
+ *  * @s2: This is the char
+ *  *
+ *  * Return: this is res
+**/
 int _strcmp(char *s1, char *s2)
 {
 int res = 0;
