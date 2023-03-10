@@ -35,11 +35,11 @@ int count;
 int str_to_int;
 int sum = 0;
 count = 1;
-while (count < argc) 
+while (count < argc)
 {
 if (check_num(argv[count]))
 {
-str_to_int = atoi(argv[count]); 
+str_to_int = atoi(argv[count]);
 sum += str_to_int;
 }
 else
