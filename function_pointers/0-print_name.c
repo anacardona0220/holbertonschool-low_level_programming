@@ -5,7 +5,6 @@
  *@d: struct
  *@name: name  char *
  *@f: function
- * Return: My name is Poppy, and I am 3.5 :) - Woof!
  */
 void print_name(char *name, void (*f)(char *))
 {
