@@ -2,7 +2,6 @@
 #include "function_pointers.h"
 /**
  *print_name - function that prints a name
- *@d: struct
  *@name: name  char *
  *@f: function
  */
