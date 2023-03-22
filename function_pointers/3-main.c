@@ -1,24 +1,24 @@
 #include "function_pointers.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include "3-calc.h"
-/**
- * main - Prints the result of simple operations.
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
- *
- * Return: Always 0.
- */
-int main(int _attribute((unused_)) argc, char *argv[])
-{
+	#include <stdlib.h>
+	#include <stdio.h>
+	#include "3-calc.h"
+	/**
+	 * main - Prints the result of simple operations.
+	 * @argc: The number of arguments supplied to the program.
+	 * @argv: An array of pointers to the arguments.
+	 *
+	 * Return: Always 0.
+	 */
+	int main(int _attribute((unused_)) argc, char *argv[])
+	{
 		int num1, num2;
 		char *op;
 
 
 		if (argc != 4)
 		{
-				printf("Error\n");
-				exit(98);
+			printf("Error\n");
+			exit(98);
 		}
 
 
@@ -29,16 +29,16 @@ int main(int _attribute((unused_)) argc, char *argv[])
 
 		if (get_op_func(op) == NULL || op[1] != '\0')
 		{
-				printf("Error\n");
-				exit(99);
+			printf("Error\n");
+			exit(99);
 		}
 
 
 		if ((*op == '/' && num2 == 0) ||
-				(*op == '%' && num2 == 0))
+		    (*op == '%' && num2 == 0))
 		{
-				printf("Error\n");
-				exit(100);
+			printf("Error\n");
+			exit(100);
 		}
 
 
@@ -46,4 +46,5 @@ int main(int _attribute((unused_)) argc, char *argv[])
 
 
 		return (0);
-}
+	}
+
